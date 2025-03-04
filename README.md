@@ -21,14 +21,16 @@
 ```python
 [workspace]
  ┣━ data ------------------------------- # 파인튜닝을 하는데 필요한 훈련 및 추론 데이터
+ ┃   ┣━ sample_submission.csv
  ┃   ┣━ finetuning_train_mlp.csv
  ┃   ┣━ finetuning_train_original.csv
  ┃   ┣━ finetuning_test_mlp.csv
  ┃   ┗━ finetuning_test_original.csv
- ┣━ huggingface ------------------------ # 베이스 모델이 저장되는 디렉토리
- ┣━ results0221 ------------------------ # MLP 해독을 input으로한 파인튜닝 
- ┣━ results0225 ------------------------ # Original 데이터를 input으로한 파인튜닝
- ┣━ kogemma_0222_raw.csv --------------- # 추론 결과 (MLP input)
- ┣━ kogemma_0226_raw.csv --------------- # 추론 결과 (Original input)
+ ┣━ huggingface ------------------------ # 베이스 모델이 저장되는 디렉토리 (empty)
+ ┣━ results0221 ------------------------ # MLP 해독을 input으로한 파인튜닝 (empty)
+ ┣━ results0225 ------------------------ # Original 데이터를 input으로한 파인튜닝 (empty)
+ ┣━ kogemma_0222_raw.csv --------------- # 추론 결과 with MLP input
+ ┣━ kogemma_0226_raw.csv --------------- # 추론 결과 with Original input
+ ┣━ requirements.txt
  ┗━ main.ipynb
 ```
